@@ -12,7 +12,7 @@ This project includes a web app where an emergency worker can input a new messag
 - Merges the two datasets
 - Cleans the data
 - Stores it in a SQLite database
-#### train_classifier.py is a machine learning pipeline that:
+#### train_classifier_final.py is a machine learning pipeline that:
 - Loads data from the SQLite database
 - Splits the dataset into training and test sets
 - Builds a text processing and machine learning pipeline
