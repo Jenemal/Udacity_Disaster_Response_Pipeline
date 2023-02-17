@@ -19,6 +19,23 @@ This project includes a web app where an emergency worker can input a new messag
 - Trains and tunes a model using GridSearchCV
 - Outputs results on the test set
 - Exports the final model as a pickle file
+#### run.py is the script that:
+- runs the disaster response web app
+- users can search messages and see what categories they fall under
+- users can look at the distribution of message genres and categories
+#### messages.csv is a file containing the different disaster messages
+#### categories.csv is a file containing the different categories of messages
+
+## To Run
+#### process_data.py
+Please type the following in the command line. NOTE: filepaths are consistent with the folder structure found in the repository.
+python .\process_data.py ..\data\messages.csv  ..\data\categories.csv sqlite:///../data/UdacityProjectNumber2.db
+#### train_classifier_final.py
+Please type the following in the command line. NOTE: filepaths are consistent with the folder structure found in the repository.
+python .\train_classifier_final.py ..\data\categories.csv sqlite:///../data/UdacityProjectNumber2.db classifier_final.pkl
+#### run.py
+Please type the following in the command line. NOTE: filepaths are consistent with the folder structure found in the repository.
+python .\run.py
 
 ## Contact Information
 Created by Jen E. Malik 02/13/23
