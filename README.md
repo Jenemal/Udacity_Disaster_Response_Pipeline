@@ -32,7 +32,7 @@ Please type the following in the command line. NOTE: filepaths are consistent wi
 python .\process_data.py ..\data\messages.csv  ..\data\categories.csv sqlite:///../data/UdacityProjectNumber2.db
 #### train_classifier_final.py
 Please type the following in the command line. NOTE: filepaths are consistent with the folder structure found in the repository.
-python .\train_classifier_final.py ..\data\categories.csv sqlite:///../data/UdacityProjectNumber2.db classifier_final.pkl
+python .\train_classifier_final.py sqlite:///../data/UdacityProjectNumber2.db classifier_final.pkl
 #### run.py
 Please type the following in the command line. NOTE: filepaths are consistent with the folder structure found in the repository.
 python .\run.py
